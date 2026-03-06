@@ -34,3 +34,4 @@ foreach ($players as $pid => $data) {
 
 file_put_contents($file, json_encode($players));
 echo $output; // Отправляем строку обратно в Pocket Code
+echo "OK;";
